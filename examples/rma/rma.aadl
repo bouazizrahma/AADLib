@@ -41,9 +41,9 @@ public
   properties
     Dispatch_Protocol                  => Periodic;
     Priority                           => 1;
-    Period                             => 1000 ms;
+    Period                             => 10000 ms;
     Compute_Execution_time             => 0 ms .. 3 ms;
-    Deadline                           => 1000 ms;
+    Deadline                           => 10000 ms;
   end Task.impl_1;
 
   thread implementation Task.impl_2
@@ -54,9 +54,9 @@ public
   properties
     Dispatch_Protocol                  => Periodic;
     Priority                           => 2;
-    Period                             => 500 ms;
+    Period                             => 5000 ms;
     Compute_Execution_time             => 0 ms .. 5 ms;
-    Deadline                           => 500 ms;
+    Deadline                           => 5000 ms;
   end Task.impl_2;
 
   ---------------

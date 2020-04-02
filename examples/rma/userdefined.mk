@@ -1,0 +1,2 @@
+USER_CFLAGS=-DDEBUG -DSIMULATOR
+PO_HI_OBJS += um_threads.o
