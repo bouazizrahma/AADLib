@@ -1,0 +1,128 @@
+rahmabouaziz@rahma-pc-u:/mnt/78FAEDF7FAEDB194/deadalus_projet/workspace/bouaziz/ocarina/resources/runtime/aadlib/examples/rma$ ./rma_impl/node_a/node_a 
+Created thread context: 0x606540, tid 0, function 0x403696
+Created thread context: 0x606908, tid 1, function 0x4036c4
+Created thread context: 0x606cd0, tid 2, function 0x4017ac
+control_scheduler is created, tid = 2 
+control_scheduler um_thread_index-1 = 2 
+Starting scheduler @ 0x606cd0
+[976.762] Swithching from 2 to 2
+control_scheduler :: suspend_execution_time = 976.762 
+
+ Please enter the duration of the execution suspension (in sec) : 10
+control_scheduler :: current_time = 978.503 
+control_scheduler :: resume_execution_time = 988.503 
+
+ Please choose the next moment to dispatch control_scheduler task : 
+- enter 'i' to choose a dispatch in the first time the scheduler is idle. 
+- enter 'd-<absolute date in sec>' to choose a dispatch in an absolute date : i.e. the dispatch will be in the first time the scheduler is idle after this date. 
+ dispatch_choice : d-999
+Dispatch choice is a next absolute date (in sec): 999. 
+*** control_scheduler :: current_time = 986.124 ***
+threads[2].next_activation = 999.0 
+----> 0 (988.503)
+----> 1 (988.503)
+[988.502] Swithching from -1 to 1
+[988.502] Swithching from 1 to 0
+----> 1 (993.502)
+[993.502] Swithching from -1 to 1
+SECOND TASK
+----> 1 (998.502)
+[998.501] Swithching from -1 to 1
+SECOND TASK
+----> 0 (998.502)
+[998.502] Swithching from -1 to 0
+FIRST TASK
+----> 2 (999.0)
+[999.0] Swithching from -1 to 2
+control_scheduler :: suspend_execution_time = 999.0 
+
+ Please enter the duration of the execution suspension (in sec) : 10
+control_scheduler :: current_time = 1.604 
+control_scheduler :: resume_execution_time = 11.604 
+
+ Please choose the next moment to dispatch control_scheduler task : 
+- enter 'i' to choose a dispatch in the first time the scheduler is idle. 
+- enter 'd-<absolute date in sec>' to choose a dispatch in an absolute date : i.e. the dispatch will be in the first time the scheduler is idle after this date. 
+ dispatch_choice : i
+Dispatch choice is idle. 
+threads[0].next_activation = 21.106 
+threads[1].next_activation = 16.105 
+control_scheduler :: current_time = 8.220 
+----> 1 (16.105)
+[16.104] Swithching from -1 to 1
+SECOND TASK
+[16.104] Swithching from 1 to 2
+control_scheduler :: suspend_execution_time = 16.104 
+
+ Please enter the duration of the execution suspension (in sec) : 10
+control_scheduler :: current_time = 23.762 
+control_scheduler :: resume_execution_time = 33.762 
+
+ Please choose the next moment to dispatch control_scheduler task : 
+- enter 'i' to choose a dispatch in the first time the scheduler is idle. 
+- enter 'd-<absolute date in sec>' to choose a dispatch in an absolute date : i.e. the dispatch will be in the first time the scheduler is idle after this date. 
+ dispatch_choice : d-45
+Dispatch choice is a next absolute date (in sec): 45. 
+threads[0].next_activation = 38.764 
+threads[1].next_activation = 43.57 
+control_scheduler :: current_time = 41.618 
+threads[2].next_activation = 45.0 
+----> 1 (43.57)
+----> 0 (38.764)
+[43.56] Swithching from -1 to 1
+SECOND TASK
+[43.56] Swithching from 1 to 0
+FIRST TASK
+----> 2 (45.0)
+[45.0] Swithching from -1 to 2
+control_scheduler :: suspend_execution_time = 45.0 
+
+ Please enter the duration of the execution suspension (in sec) : 10
+control_scheduler :: current_time = 53.510 
+control_scheduler :: resume_execution_time = 63.510 
+
+ Please choose the next moment to dispatch control_scheduler task : 
+- enter 'i' to choose a dispatch in the first time the scheduler is idle. 
+- enter 'd-<absolute date in sec>' to choose a dispatch in an absolute date : i.e. the dispatch will be in the first time the scheduler is idle after this date. 
+ dispatch_choice : d-80
+Dispatch choice is a next absolute date (in sec): 80. 
+threads[0].next_activation = 71.566 
+threads[1].next_activation = 66.566 
+control_scheduler :: current_time = 59.89 
+threads[2].next_activation = 80.0 
+----> 1 (66.566)
+[66.565] Swithching from -1 to 1
+SECOND TASK
+----> 1 (71.565)
+[71.564] Swithching from -1 to 1
+SECOND TASK
+----> 0 (71.566)
+[71.565] Swithching from -1 to 0
+FIRST TASK
+----> 1 (76.565)
+[76.564] Swithching from -1 to 1
+SECOND TASK
+----> 2 (80.0)
+[80.0] Swithching from -1 to 2
+control_scheduler :: suspend_execution_time = 80.0 
+
+ Please enter the duration of the execution suspension (in sec) : 10
+control_scheduler :: current_time = 83.127 
+control_scheduler :: resume_execution_time = 93.127 
+
+ Please choose the next moment to dispatch control_scheduler task : 
+- enter 'i' to choose a dispatch in the first time the scheduler is idle. 
+- enter 'd-<absolute date in sec>' to choose a dispatch in an absolute date : i.e. the dispatch will be in the first time the scheduler is idle after this date. 
+ dispatch_choice : i 
+Dispatch choice is idle. 
+threads[0].next_activation = 94.693 
+threads[1].next_activation = 94.691 
+control_scheduler :: current_time = 91.440 
+----> 1 (94.691)
+[94.690] Swithching from -1 to 1
+SECOND TASK
+[94.690] Swithching from 1 to 2
+control_scheduler :: suspend_execution_time = 94.690 
+
+ Please enter the duration of the execution suspension (in sec) : ^C
+rahmabouaziz@rahma-pc-u:/mnt/78FAEDF7FAEDB194/deadalus_projet/workspace/bouaz
